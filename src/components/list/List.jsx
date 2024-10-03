@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 function List(props){
 
@@ -16,13 +16,11 @@ function List(props){
     );
 }
 
-items.propTypes = {
-    id : PropTypes.number,
-    name : PropTypes.string,
-    amount : PropTypes.number,
-    price : PropTypes.string
-}
-
-
-
+List.propTypes = {
+    id: PropTypes.number,
+    name: PropTypes.string,
+    amount: PropTypes.number,
+    price: PropTypes.string
+  };
+  
 export default List;
