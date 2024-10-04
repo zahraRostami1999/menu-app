@@ -1,5 +1,6 @@
 import styles from "./MenuPage.module.css";
 import List from "../../components/list/List.jsx";
+import Header from "../../components/header/Header.jsx";
 import background from "../../assets/back2.jpg";
 
 function MenuPage() {
@@ -31,6 +32,7 @@ function MenuPage() {
   return (
     <>
       <div style={style}>
+        <Header/>
         <div className={styles.list}>
           {foods.length > 0 && <List items={foods} category="Food" />}
           {drinks.length > 0 && <List items={drinks} category="Drinks" />}
