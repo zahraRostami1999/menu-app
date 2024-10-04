@@ -1,0 +1,5 @@
+.list{
+    height: 240px;
+    display: flex;
+    justify-content: space-around;
+}
