@@ -2,9 +2,10 @@ import PropTypes from "prop-types";
 
 function List(props){
 
-    const items = props.items;
+    const Listitems = props.items;
     const category = props.category;
-    const foodsList = items.map((item) => <li>{item.name}: {item.price}</li>)
+
+    const foodsList = Listitems.map((item) => (<li key={item.id}>{item.name}: {item.price}</li>));
 
     return(
         <>
@@ -22,5 +23,5 @@ List.propTypes = {
     amount: PropTypes.number,
     price: PropTypes.string
   };
-  
+
 export default List;
