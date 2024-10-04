@@ -14,8 +14,12 @@ function List(props) {
   return (
     <>
       <div className={styles.listWrapper}>
-        <h3>{category}</h3>
-        <ul>{foodsList}</ul>
+        <div className={styles.listTitle}>
+          <h3>{category}</h3>
+        </div>
+        <div className={styles.listItems}>
+          <ul>{foodsList}</ul>
+        </div>
       </div>
     </>
   );
