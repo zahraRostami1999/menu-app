@@ -7,7 +7,8 @@ function List(props) {
 
   const foodsList = Listitems.map((item) => (
     <li key={item.id}>
-      {item.name}: {item.price}
+      <div className={styles.itemName}>{item.name}</div>
+      <div className={styles.itemPrice}>{item.price}</div>
     </li>
   ));
 
