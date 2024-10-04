@@ -1,3 +1,4 @@
+import styles from "./List.module.css";
 import PropTypes from "prop-types";
 
 function List(props) {
@@ -12,7 +13,7 @@ function List(props) {
 
   return (
     <>
-      <div>
+      <div className={styles.listWrapper}>
         <h3>{category}</h3>
         <ul>{foodsList}</ul>
       </div>
