@@ -1,0 +1,38 @@
+.selectBox{
+    padding: 20px 0;
+    display: flex;
+}
+
+.selectedItem{
+    display: block;
+}
+
+.options{
+    background-color: rgb(255, 196, 0);
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    color: rgb(33, 33, 33);
+    font-weight: 600;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+}
+
+.quantityBox input{
+    margin-top: 3px;
+    margin-left: 15px;
+    width: 40px;
+    height: 28px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.selectedItem{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
