@@ -1,0 +1,31 @@
+.container{
+    margin: 30px 0;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.orderBox{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 89%;
+    padding: 20px 10px;
+
+}
+
+.boxTitle{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fcfbfb;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e1e1e1;
+}
+
+.selectBox{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
